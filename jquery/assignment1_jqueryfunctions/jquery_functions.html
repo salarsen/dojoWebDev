@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Not Blank</title>
+        <link rel="stylesheet" href="style.css">
+        <script   src="http://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+        <script src="functions.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="slide">
+                <!-- Button Click test -->
+                <p id="click-test">This is a button click test</p>
+                <button id="click-btn">Click to test</button>
+                <!-- focus test & addClass -->
+                <p><input type="text"><span>Maybe you should put something here?</span></p>
+                <!-- val test -->
+                <select id="testvalues">
+                    <option selected="selected" value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+                <p>The current color is: </p><p id="displayval"></p>
+                <p id="printattr"></p>
+                <div id="showandtell">
+                    <p id="beforeaftertest">This is the middle.</p>
+                    <button id="addbefore">Add Before</button>
+                    <button id="addafter">Add After</button>
+                    <button id="appenddata">Append some data</button>
+                </div>
+                <p><button id="hidestuff">Hide something</button></p>
+                <p><button id="showstuff">Show stuff</button></p>
+                <p><button id="togglestuff">Toggle</button></p>
+                <p><button id="fadein">Fade In</button></p>
+                <p><button id="fadeout">Fade Out</button></p>
+            </div>
+            <p><button id="slideup">Slide up</button></p>
+            <p><button id="slidedown">Slide down</button></p>
+            <p><button id="slidetoggle">Toggle Slide</button></p>
+        </div>
+    </body>
+</html>
